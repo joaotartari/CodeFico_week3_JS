@@ -1,0 +1,20 @@
+Não é possível editar o valor de uma variável const. Como por exemplo:
+const PI = 3.1415;
+PI = 3.14;
+Pois, uma variável const não permite reatribuição de valores.
+
+Caso um array seja declarado como const, é possível alterar os elementos desse array, como por exemplo:
+const list = [1, 2, 3];
+list[0] = 7;
+Mas, não é possível fazer algo como: 
+list = [4, 5, 6];
+Pois, isso seria uma tentativa de reatribuição da variável, o que resultaria em um erro.
+
+Quando um objeto é declaro como const, é possível modificar os elementos do objeto, como por exemplo:
+const pessoa = {nome: 'João', idade: 18};
+pessoa.nome = 'Maria';
+pessoa.idade = 20;
+Porém, não é possível reatribuir um novo objeto, como por exemplo:
+pessoa = {nome: 'Maria', idade: 20};
+
+

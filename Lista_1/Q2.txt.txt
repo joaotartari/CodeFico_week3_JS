@@ -1,0 +1,3 @@
+Const: Tem escopo de bloco, mas uma vez que é atribuído um valor, esse valor não pode ser alterado, ou seja, não permite a reatribuição de valores
+Var: Tem escopo de função, o que significa que a variável é visível em toda a função em que foi declarada, mesmo que esteja dentro de blocos de código, permite reatribuição de valores. 
+Let: Tem escopo de bloco, o que significa que a variável só é visível dentro do bloco em que foi declarada. Além disso, let também permite reatribuição de valores.

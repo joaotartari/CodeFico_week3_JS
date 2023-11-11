@@ -1,0 +1,17 @@
+O que será exibido nos seguintes códigos: 
+var x = 5;
+function fun() {
+    var x = 6;
+    console.log(x);
+}
+console.log(x);
+
+let x = 5;
+function fun() {
+    let x = 6;
+    console.log(x);
+}
+console.log(x);
+
+No primeiro código, será exibido o valor 6 duas vezes. Pois, o var altera a variável para o código inteiro.
+No segundo códigom será exibido o valor 6 e depois o valor 5.Pois, o Let tem escopo de bloco, ou seja, a atribuição do valor 6 ao valor x só é valida dentro do bloco da função "fun".

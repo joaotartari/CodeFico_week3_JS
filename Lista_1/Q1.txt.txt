@@ -1,0 +1,6 @@
+1. O NVM é uma ferramenta para gerenciar diferentes versões do Node.js em um ambiente de desenvolvimento.
+2. a. O NPM  é o gerenciador de pacotes do Node.js. É usado para instalar bibliotecas em um projeto JavaScript.
+   b. O comando instala a biblioteca prompt-sync no projeto, biblioteca que recebe permite receber entrada do usuário.
+   c. As bibliotecas JavaScript geralmente são instaladas no diretório do projeto, e o comando para instalar é executado no terminal desse diretório.
+3. Não, em Python, o código que cria e o que usa uma variável são parte integrante do mesmo programa, e não há uma diferença entre eles.
+4. Não, em JavaScript, a criação e o uso de variáveis também seguem a mesma sintaxe. O código que declara (cria) uma variável e o código que a utiliza estão integrados e podem ocorrer em qualquer parte do programa.
